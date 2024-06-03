@@ -1,0 +1,49 @@
+
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: "calibri light";
+}
+.contenedor{
+    background: gray;
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 400px;
+    background-image: url(../Imagenes/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background: rgb(91, 240, 158);
+    padding: 20px 30px;
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    background-image: url(../Imagenes/feid.jpg);
+    width: 100%;
+    border-radius: 50%;
+    background-position: center;
+}
+
+footer{
+    background: teal;
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
